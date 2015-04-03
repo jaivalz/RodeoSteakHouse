@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rodeo Steak House</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+ <meta charset="utf-8">
+
+<script src="js/jquery.min.js"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+					<!----start-top-nav-script---->
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('.top-nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+
+</head>
+<body> 
+<!--header-->
+	<div class="header">
+			<div class="container">
+                <div class="navbar navbar-fixed-top">
+				<div class="logo nav" >
+					<a href="#hello"><h1>RODEO<span> STEAK HOUSE</span></h1></a>
+				</div>
+				<div class="top-nav">
+				
+					<ul>
+						<li ><a href="#home" class="scroll">INICIO</a></li>
+                        <li><a href="#services" class="scroll">Restaurante</a></li>
+                        <li><a href="#portfolio" class="scroll">MENU</a></li>
+						<li><a href="#about" class="scroll"> Localización</a></li>
+						<li><a href="#contact" class="scroll">CONTACTO</a></li>
+					</ul>
+					<a href="#" id="pull"><img src="images/menu.png" title="menu" /></a>
+				</div>
+			<div class="clearfix"> </div>
+		</div>
+                </div>
+	</div>
+	<!--banner-->
+	       <div id="home"> <div class="container contentContainer" id="topContainer" >
+                  
+            </div>
+    </div>
+	<!--content-->
+    <br />
+	<div class="content">
+	<div class="container">
+		<div class="hello" id="services">
+            <br />
+            <br />
+            <br />
+            <br />
+			<h3>
+                RESTAURANTE</h3>
+            <br />
+			<p class="lead center">Rodeo Steak House combina la tradición gastronómica con el mejor saber hacer culinario. Deguste los diferentes cortes de nuestra exquisita carne irlandesa "Bord Bia" y otras especialidades culinarias procedente de la provincia de Málaga y acompáñelo con nuestros excelentes vinos. <br /><br />
+            Las vistas y la decoración de las que disfrutará le proporcionará una experiencia única.</p>
+			
+			
+		</div>
+	</div>
+	<!--services-->
+		<div class="services" >
+			<div class="container">
+				<div class="services-top">
+					
+				</div>
+				<div class="services-bottom">
+					<div class="col-md-4 services-grid">
+						<img  src="css/fo4.JPG" alt="" width="325" /></a>
+						
+					</div>
+					<div class="col-md-4 services-grid">
+						<img  src="css/fo5.jpg" alt="" width="325" /></a>
+						
+					</div>
+					<div class="col-md-4 services-grid">
+						<img  src="css/fo6.jpg" alt="" width="325"/></a>
+						
+					</div>
+					
+			</div>
+		</div>
+            
+               <div class="container contentContainer" id="topContainer2" >
+                  
+            </div>
+		<!--work-->
+		<div class="work" id="portfolio">
+			<div class="container">
+              <div> <img src="css/Menu.png" />   </div>
+				
+			</div>
+		</div>
+		<!---->
+		<div class="map" id="about" >
+							   	    <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.4361224194!2d-4.525462999999998!3d36.591803999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fced68f4a8c1%3A0xf33fa9fbfaa53d0c!2sRodeo+Steak+House!5e0!3m2!1ses!2ses!4v1426375023258" width="600" height="450" frameborder="0" style="border:0"></iframe><br><small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3203.4361224194!2d-4.525462999999998!3d36.591803999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72fced68f4a8c1%3A0xf33fa9fbfaa53d0c!2sRodeo+Steak+House!5e0!3m2!1ses!2ses!4v1426375023258" width="600" height="450" frameborder="0" style="border:0">Ver mas grande</a></small>
+							  </div>
+		<div class="about-me" >
+			<div class="container">
+				<div class="about">
+					<h3>LOCALIZACIóN</h3>
+					<p>Avenida Antonio Machado Nº 96, Benalmádena.</p>
+					
+				</div>
+			
+			
+			
+			<!----contact-->
+               
+                  
+            </div>
+			<div class="contact" id="contact">
+				<div class="container">
+				<h3 >CONTACT0</h3>
+                    <br />
+                    <div class="telefono">
+                    952 56 60 30
+				</div>
+                    
+                    
+				</div>
+			</div>
+	</div>
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+				<div class="footer-class">
+				 
+					 <ul class="social-in-icons">
+						<li class="facebook"><a href="https://www.facebook.com/pages/Rodeo-Steak-House/150103991667896"><span><img src="css/Facebook.png" width="60px" /> </span></a></li>
+						<li class="twitter"><a href="https://es.foursquare.com/v/rodeo-steak-house/4e6610001fc747ca49dda9bb"><span><img src="css/Four.png" width="60px" /> </span></a></li>
+						<li class="inline"><a href="http://www.tripadvisor.es/Restaurant_Review-g562812-d2035428-Reviews-Rodeo_Steak_House-Benalmadena_Costa_del_Sol_Province_of_Malaga_Andalucia.html"><span><img src="css/Trip.png" width="60px" /> </span></a></li>
+                         
+					</ul>
+                    
+				<div class="clearfix"> </div>
+			 	</div>
+		 </div>
+		
+
+	</div>
+    <br />
+    <div class="about">
+					
+					<p>Restaurante Rodeo Steak House &copy; jaivalvaz</p>
+					
+				</div>
+    
+
+</body>
+</html>
